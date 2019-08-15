@@ -1,0 +1,4 @@
+*.xml
+*.vcs
+*.iml
+.idea

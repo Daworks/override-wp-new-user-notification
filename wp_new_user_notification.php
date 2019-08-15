@@ -1,7 +1,11 @@
 <?php
 ! defined( 'ABSPATH' ) AND exit;
 /**
- * Plugin Name: (pluggable) New User Notification
+ * Plugin Name: Override wp_new_user_notification
+ * Plugin URI: https://github.com/Daworks/override-wp-new-user-notification
+ * Description: 워드프레스 회원가입시 발송되는 메일의 비밀번호 설정 링크 오류를 수정합니다.
+ * Author:            디자인아레테 DesignArete
+ * Author URI:        https://daworks.io/
  */
 
 if ( !function_exists('wp_new_user_notification') ) {
